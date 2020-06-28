@@ -1,0 +1,265 @@
+head,body{
+margin :0;
+padding-top: 15px;
+border: 0;
+}
+@media (min-width : 992px) {
+    #container {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        border-spacing: 30px;
+    }
+
+    #box1 {
+        border: 2.5px solid black;
+        width: 30%;
+        box-sizing: border-box;
+        background-color: #999999;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 10px;
+        display: table-cell;
+    }
+
+    #box2 {
+        border: 2.5px solid black;
+        width: 30%;
+        box-sizing: border-box;
+        background-color: #999999;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 10px;
+        display: table-cell;
+    }
+
+    #box3 {
+        border: 2.5px solid black;
+        width: 30%;
+        box-sizing: border-box;
+        background-color: #999999;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 10px;
+        display: table-cell;
+    }
+
+    #box11 {
+        border-left: 2.5px solid black;
+        border-bottom: 2.5px solid black;
+        float: right;
+		background-color : #d59898;
+        font-weight: bold;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 22px; 
+    }
+
+    #box22 {
+        border-left: 2.5px solid black;
+        border-bottom: 2.5px solid black;
+        float: right;
+		background-color: #c14543;
+		color : #ffffff;
+        font-weight: bold;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 9%;
+        padding-right: 9%;
+        font-size: 22px; 
+    }
+
+    #box33 {
+        border-left: 2.5px solid black;
+        border-bottom: 2.5px solid black;
+        float: right;
+        font-weight: bold;
+		background-color: #e5d198;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 8%;
+        padding-right: 8%;
+        font-size: 22px; 
+    }
+
+    #par {
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #box1 {
+        border: 2.5px solid black;
+        box-sizing: border-box;
+        background-color: #999999;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 10px;
+        width: 90%;
+        margin: 20px;
+    }
+
+    #box2 {
+        border: 2.5px solid black;
+        box-sizing: border-box;
+        background-color: #999999;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 10px;
+        width: 90%;
+        margin: 20px;
+    }
+
+    #box3 {
+        border: 2.5px solid black;
+        box-sizing: border-box;
+        background-color: #999999;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 10px;
+        width: 190%;
+        margin: 20px;
+    }
+
+    #box11 {
+        border-left: 2.5px solid black;
+        border-bottom: 2.5px solid black;
+        float: right;
+		background-color : #d59898;
+        font-weight: bold;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 22px; 
+    }
+
+    #box22 {
+        border-left: 2.5px solid black;
+        border-bottom: 2.5px solid black;
+        float: right;
+		background-color: #c14543;
+		color : #ffffff;
+        font-weight: bold;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 9%;
+        padding-right: 9%;
+        font-size: 22px; 
+    }
+
+    #box33 {
+        border-left: 2.5px solid black;
+        border-bottom: 2.5px solid black;
+        float: right;
+        font-weight: bold;
+		background-color: #e5d198;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 8%;
+        padding-right: 8%;
+        font-size: 22px; 
+    }
+
+    #par {
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width : 767px) {
+    #container {
+        margin-top: 60px;
+        margin-left: 50px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 50px;
+        margin-bottom: 30px;
+    }
+
+    #box1 {
+        border: 2.5px solid black;
+        width: 90%;
+        box-sizing: border-box;
+        background-color: #999999;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 10px;
+        display: table-cell;
+    }
+
+    #box2 {
+        border: 2.5px solid black;
+        width: 90%;
+        box-sizing: border-box;
+        background-color: #999999;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 10px;
+        display: table-cell;
+    }
+
+    #box3 {
+        border: 2.5px solid black;
+        width: 90%;
+        box-sizing: border-box;
+        background-color: #999999;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 10px;
+        display: table-cell;
+    }
+
+    #box11 {
+        border-left: 2.5px solid black;
+        border-bottom: 2.5px solid black;
+        float: right;
+        font-weight: bold;
+		background-color : #d59898;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 22px; 
+    }
+
+    #box22 {
+        border-left: 2.5px solid black;
+        border-bottom: 2.5px solid black;
+        float: right;
+		background-color: #c14543;
+		color : #ffffff;
+        font-weight: bold;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 9%;
+        padding-right: 9%;
+        font-size: 22px; 
+    }
+
+    #box33 {
+        border-left: 2.5px solid black;
+        border-bottom: 2.5px solid black;
+        float: right;
+        font-weight: bold;
+		background-color: #e5d198;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 8%;
+        padding-right: 8%;
+        font-size: 22px; 
+    }
+
+    #par {
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
